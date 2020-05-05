@@ -158,6 +158,9 @@
 		.mb-mini{
 			color: #ffbd39;
 		}
+		.name-footer:hover{
+			color: #ffbd39;
+		}
 	</style>
 </head>
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -248,7 +251,7 @@
 								<div class="col-md-12 heading-section ftco-animate">
 									<h1 class="big">About</h1>
 									<h2 class="mb-4">About Me</h2><br>
-									<p style="color: white; font-size: 15pt;">Hello! I'm Bhargav Borse and i've completed my Bachelor's in Computer Application from Navrachana University and now pursuing Maters in Computer Application from Parul University.
+									<p style="color: white; font-size: 15pt;">Hello! I'm Bhargav Borse and i've completed my Bachelor's in Computer Application from <a href=""></a> Navrachana University and now pursuing Masters in Computer Application from Parul University.
 										<br><br> I'm also a part of many communities like Mozilla Gujarat, Karigar, Wordpress Developers Vadodara, Microsoft Student Community. Being a part of these communities i learned how to communicate with people and deal with situations positively. 
 										<br><br> I have worked on many projects based on <span style="color: #ffbd39; font-weight: bold;">JavaScript, Node.Js, WebSocket, Socket.io, Firebase, MongoDB. </span> And now I am available for job, internship, freelance projects. 
 									</p>
@@ -845,21 +848,21 @@
 		
 		<div class="row no-gutters block-9">
 			<div class="col-md-6 order-md-last d-flex">
-				<form action="#" class="bg-light p-4 p-md-5 contact-form" data-netlify="true">
+				<form action="#" class="bg-light p-4 p-md-5 contact-form" netlify>
 					<div class="form-group">
-						<input type="text" class="form-control" placeholder="Your Name">
+						<input type="text" name="Name" class="form-control" placeholder="Your Name">
 					</div>
 					<div class="form-group">
-						<input type="text" class="form-control" placeholder="Your Email">
+						<input type="text" name="email" class="form-control" placeholder="Your Email">
 					</div>
 					<div class="form-group">
-						<input type="text" class="form-control" placeholder="Subject">
+						<input type="text" name="subject" class="form-control" placeholder="Subject">
 					</div>
 					<div class="form-group">
-						<textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+						<textarea name="message" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
 					</div>
 					<div class="form-group">
-						<input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+						<button type="submit" value="Send Message" class="btn btn-primary py-3 px-5">Send Message</button>
 					</div>
 				</form>
 				
@@ -921,7 +924,7 @@
 				</div> -->
 				<div class="col-md">
 					<div class="ftco-footer-widget mb-4">
-						<h2 class="ftco-heading-2">Have a Questions?</h2>
+						<h2 class="ftco-heading-2">Have a Question?</h2>
 						<div class="block-23 mb-3">
 							<ul>
 								<!-- <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li> -->
@@ -935,7 +938,7 @@
 			<div class="row">
 				<div class="col-md-12 text-center">
 					
-					Portfolio-2020<p>Made with <span class="icon icon-heart" style="color: red;"></span> by <a href="">BHARGAV BORSE</a></p>
+				 	<p style="color: #ffbd39;"> Portfolio-2020</p><p>Made with <span class="icon icon-heart" style="color: red;"></span> by <a href="#" class="name-footer">BHARGAV BORSE</a></p>
 				</div>
 			</div>
 		</div>
