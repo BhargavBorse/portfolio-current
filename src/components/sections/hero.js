@@ -57,16 +57,17 @@ const Hero = () => {
     const timeout = setTimeout(() => setIsMounted(true), navDelay);
     return () => clearTimeout(timeout);
   }, []);
-
-  const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
+  
+  const one = <h1>Hello, my name is</h1>;
+  const two = <h2 className="big-heading">Bhargav Borse.</h2>;
   const three = <h3 className="big-heading">I build things for the web.</h3>;
   const four = (
     <p>
-      I'm a Boston-based software engineer who specializes in building (and occasionally designing)
-      exceptional digital experiences. Currently, I'm an engineer at{' '}
+      I'm a Gujarat-based freelancer who specializes in building (and occasionally designing)
+      exceptional digital experiences. 
+      {/* Currently, I'm an engineer at{' '}
       <a href="https://upstatement.com/">Upstatement</a> focused on building accessible,
-      human-centered products.
+      human-centered products. */}
     </p>
   );
   const five = (
