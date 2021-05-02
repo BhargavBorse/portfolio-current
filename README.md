@@ -2,7 +2,7 @@
   <img alt="Logo" src="https://raw.githubusercontent.com/bchiang7/v4/main/src/images/logo.png" width="100" />
 </div>
 <h1 align="center">
-  brittanychiang.com - v4
+  Bhargav Borse
 </h1>
 <p align="center">
   The latest iteration of <a href="https://bhargavborse.netlify.app/" target="_blank">bhargavborse.netlify.app</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
