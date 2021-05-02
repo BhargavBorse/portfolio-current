@@ -155,10 +155,19 @@ const About = () => {
             </p>
 
             <p>
-              Fast-forward to today, and I've had the privilege to be a part of various IT 
-              communities such as <a>Mozilla Gujarat</a>, <a>Karigar</a>, <a> Wordpress Developers Gujarat </a> and <a> Microsoft Student 
+              {/* Fast-forward to today, and I've had the privilege to be a part of various IT 
+              communities such as <a>Mozilla Gujarat</a>, <a>Karigar</a>, {' '} <a> Wordpress Developers Gujarat </a> and <a> Microsoft Student 
                 Community</a>. My main focus these days is building accessible, 
-              inclusive products and digital experiences for a variety of clients.
+              inclusive products and digital experiences for a variety of clients. */}
+
+              Fast-forward to today, and I've had the privilege of working at{' '}
+              <a>Mozilla Gujarat</a>,{' '}
+              <a>Karigar</a>,{' '}
+              <a>Wordpress Developers Gujarat</a>, and{' '}
+              <a>Microsoft Student Community</a>. My
+              main focus these days is building accessible, inclusive products and digital
+              experiences for a variety of
+              clients.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
