@@ -18,7 +18,7 @@
   </a>
 </p>
 
-![demo](https://raw.githubusercontent.com/bchiang7/v4/main/src/images/demo.png)
+![demo](https://raw.githubusercontent.com/BhargavBorse/portfolio-current/master/src/images/Hero.png)
 
 ## 🚨 Forking this repo (please read!)
 
