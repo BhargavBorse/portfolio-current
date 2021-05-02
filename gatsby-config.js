@@ -7,7 +7,7 @@ module.exports = {
       'Bhargav Borse is a Web Developer who specializes in building (and occasionally designing) exceptional digital experiences.',
     siteUrl: 'https://bhargavborse.netlify.app', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+    twitterUsername: '@bhargav_borse',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
