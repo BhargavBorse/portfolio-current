@@ -1,12 +1,13 @@
 ---
-date: '2018-04-01'
-title: 'Studio Developer'
-company: 'Scout'
-location: 'Northeastern University'
-range: 'January - April 2018'
-url: 'https://web.northeastern.edu/scout/'
+date: '2021-09-01'
+title: 'Web Application Developer Intern'
+company: 'EIS'
+location: 'Alkapuri, Vadodara'
+range: 'September 2020 - March 2021'
+url: 'http://www.enlighteninfosystems.com/'
 ---
 
-- Worked with a team of three designers to build a marketing website and e-commerce platform for [blistabloc](https://blistabloc.com), an ambitious startup originating from Northeastern
-- Helped solidify a brand direction for blistabloc that spans both packaging and web
-- Interfaced with clients on a weekly basis, providing technological expertise
+- Proposed and implemented scalable solution to issues identified with fraud cases of certificates
+- Engineered and maintained major features of web-app using ES6, Firebase, HTML, CSS, SaSS, jQuery
+- Worked closely with management team and owner of Enlighten Infosystems to develop, document, and manage the 
+web application.
