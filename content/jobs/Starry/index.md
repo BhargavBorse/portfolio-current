@@ -1,12 +1,12 @@
 ---
-date: '2016-12-21'
-title: 'Software Engineer Co-op'
-company: 'Starry'
-location: 'Boston, MA'
-range: 'July - December 2016'
-url: 'https://starry.com/'
+date: '2018-06-21'
+title: 'Web Developer Intern'
+company: 'EIS'
+location: 'Alkapuri, Vadodara'
+range: 'July - February 2018'
+url: 'http://www.enlighteninfosystems.com/'
 ---
 
-- Engineered and maintained major features of Starry's customer-facing web app using ES6, Handlebars, Backbone, Marionette and CSS
-- Proposed and implemented scalable solutions to issues identified with cloud services and applications responsible for communicating with Starry Station
-- Interfaced with user experience designers and other developers to ensure thoughtful and coherent user experiences across Starry’s iOS and Android mobile apps
+- Developed and shipped highly interactive web application for Enlighten Infosystems
+- Built and shipped the clothes and costumes rental web application using JavaScript as back-end, Firebase as real-time 
+Database and HTML, CSS, SaSS, jQuery as front-end web

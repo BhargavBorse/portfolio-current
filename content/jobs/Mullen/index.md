@@ -1,12 +1,11 @@
 ---
-date: '2015-12-21'
-title: 'Creative Technologist Co-op'
-company: 'MullenLowe'
-location: 'Boston, MA'
-range: 'July - December 2015'
-url: 'https://us.mullenlowe.com/'
+date: '2020-7-21'
+title: 'Web Developer'
+company: 'Qutbuddin'
+location: 'Dubai, UAE'
+range: 'July - August 2020'
+url: 'https://bhargavborse.github.io/qbmtDubai/'
 ---
 
-- Developed and maintained code for in-house and client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery
-- Manually tested sites in various browsers and mobile devices to ensure cross-browser compatibility and responsiveness
-- Clients included JetBlue, Lovesac, U.S. Cellular, U.S. Department of Defense, and more
+- Developed and maintained code for client website primarily using HTML, CSS, Sass, JavaScript, and jQuery
+- Interfaced with client on weekly basis, providing the technological expertise

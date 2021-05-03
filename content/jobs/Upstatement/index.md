@@ -1,12 +1,12 @@
 ---
-date: '2018-05-14'
-title: 'Engineer'
-company: 'Upstatement'
-location: 'Boston, MA'
-range: 'May 2018 - Present'
-url: 'https://www.upstatement.com/'
+date: '2017-05-14'
+title: 'Web Designer'
+company: 'EIS   '
+location: 'Alkapuri, Vadodara'
+range: 'May - September 2017'
+url: 'http://www.enlighteninfosystems.com/'
 ---
 
-- Write modern, performant, maintainable code for a diverse array of client and internal projects
-- Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify
-- Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis
+- Worked with a team of two designers to build a food ordering website which will work for any company's internal staff.
+- Built website primarily using HTML, CSS, SaSS, JavaScript, jQuery
+- Manually tested site in various browser compatibility and responsiveness
