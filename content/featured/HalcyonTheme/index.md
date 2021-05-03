@@ -1,16 +1,16 @@
 ---
-date: '1'
-title: 'Halcyon Theme'
+date: '2'
+title: 'Sudhan Industries'
 cover: './halcyon.png'
-github: 'https://github.com/bchiang7/halcyon-site'
-external: 'https://halcyon-theme.netlify.com/'
+github: 'https://github.com/BhargavBorse/sudhan-industry'
+external: 'http://sudhanindustries.in/'
 tech:
   - VS Code
-  - Sublime Text
-  - Atom
-  - iTerm2
-  - Hyper
+  - HTML
+  - CSS
+  - SaSS
+  - jQuery
 showInProjects: true
 ---
 
-A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode), [Package Control](https://packagecontrol.io/packages/Halcyon%20Theme), [Atom Package Manager](https://atom.io/themes/halcyon-syntax), and [npm](https://www.npmjs.com/package/hyper-halcyon-theme).
+Designed and Developed code for an ambitious startup originating from western. Architectured, Designed and Implemented the front-end of Sudhan Industry's website which let their customers know about their products.

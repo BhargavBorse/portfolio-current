@@ -1,15 +1,15 @@
 ---
-date: '2'
-title: 'Spotify Profile'
+date: '3'
+title: 'Vericert'
 cover: './demo.png'
-github: 'https://github.com/bchiang7/spotify-profile'
-external: 'https://spotify-profile.herokuapp.com/'
+github: 'https://github.com/BhargavBorse/vericert'
+external: 'https://vericert.netlify.app/'
 tech:
-  - React
-  - Node.js
-  - Express
-  - Spotify Web API
+  - JavaScript
+  - Firebase
+  - Progressive Web App
+  - HTML
 showInProjects: true
 ---
 
-A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.
+Proposed and implemented scalable solution to issues identified with fraud cases of certificates. Worked closely with management team and owner of Enlighten Infosystems to develop, document, and manage the web application.

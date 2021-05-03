@@ -1,14 +1,11 @@
 ---
-date: '3'
-title: 'OctoProfile'
+date: '1'
+title: 'Anxiety Design'
 cover: './octoprofile.png'
-github: 'https://github.com/bchiang7/octoprofile'
-external: 'https://octoprofile.now.sh'
+github: 'https://github.com/BhargavBorse/Anxiety-XD'
 tech:
-  - Next.js
-  - Chart.js
-  - GitHub API
+  - Adobe XD
 showInProjects: true
 ---
 
-A nicer look at your GitHub profile and repository stats with data visualizations of your top languages and stars. Sort through your top repos by number of stars, forks, and size.
+A nicer look of Anxiety Webpage made in Adobe XD.
