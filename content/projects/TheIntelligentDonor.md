@@ -11,4 +11,4 @@ company: 'Parul University'
 showInProjects: true
 ---
 
-A single page web app for helping me choose where to travel, built with Next.js, Firebase, and Tailwind CSS
+The motive of making this Web Application is to improve the database of blood banks and to make process easy of taking appointment for the blood donation and finding blood.

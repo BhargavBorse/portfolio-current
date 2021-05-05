@@ -1,15 +1,12 @@
 ---
 date: '2016-11-01'
-title: 'Screentime 2.0'
-github: ''
-external: 'https://starry.com/blog/product/whats-new-screentime-just-got-better-for-parents'
-android: 'https://play.google.com/store/apps/details?id=com.starry.management&hl=en_US'
+title: 'To-Do App'
+github: 'https://github.com/BhargavBorse/ToDo-nodeJs'
+external: ''
 tech:
-  - Cordova
-  - Backbone
-  - Marionette
-company: 'Starry'
+  - Node.js
+company: 'Freelance'
 showInProjects: true
 ---
 
-Starry Station android app feature that provided users with the ability to easily filter content, pause the internet, and even create custom rules for blocking apps like Facebook and Twitter right from their phones.
+A To-Do web page where user can create a task and also can delete after the completion of task
