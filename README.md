@@ -2,10 +2,10 @@
   <img alt="Logo" src="https://raw.githubusercontent.com/BhargavBorse/portfolio-current/master/src/images/logo.png" width="100" />
 </div>
 <h1 align="center">
-  bhargavborse.com - v3
+  Bhargav Borse's Personal Website - v3
 </h1>
 <p align="center">
-  The third iteration of <a href="https://bhargavborse.netlify.app/" target="_blank">bhargavborse.com</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
+  The third iteration of <a href="https://bhargavborse.netlify.app/" target="_blank">bhargavborse.netlify.app</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
 </p>
 <p align="center">
   Previous iterations:
@@ -30,7 +30,7 @@ Please also note that I did not build this site with the intention of it being a
 
 ### TL;DR
 
-Yes, you can fork this repo. Please give me proper credit by linking back to [bhargavborse.com](https://bhargavborse.netlify.app/). Thanks!
+Yes, you can fork this repo. Please give me proper credit by linking back to [bhargavborse.netlify.app](https://bhargavborse.netlify.app/). Thanks!
 
 ## 🛠 Installation & Set Up
 
