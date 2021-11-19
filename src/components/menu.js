@@ -242,7 +242,11 @@ const Menu = () => {
       </Helmet>
 
       <div ref={wrapperRef}>
-        <StyledHamburgerButton onClick={toggleMenu} menuOpen={menuOpen} ref={buttonRef}>
+        <StyledHamburgerButton
+          onClick={toggleMenu}
+          menuOpen={menuOpen}
+          ref={buttonRef}
+          aria-label="Menu">
           <div className="ham-box">
             <div className="ham-box-inner" />
           </div>
@@ -262,7 +266,7 @@ const Menu = () => {
               </ol>
             )}
 
-            <a href="/resume.pdf" className="resume-link">
+            <a href="/BhargavBorse.pdf" className="resume-link">
               Resume
             </a>
           </nav>
