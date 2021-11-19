@@ -18,7 +18,7 @@
   </a>
 </p>
 
-![demo](https://raw.githubusercontent.com/bchiang7/v4/main/src/images/demo.png)
+![demo](https://raw.githubusercontent.com/BhargavBorse/portfolio-current/master/src/images/demo.png)
 
 ## 🚨 Forking this repo (please read!)
 
@@ -30,7 +30,7 @@ Please also note that I did not build this site with the intention of it being a
 
 ### TL;DR
 
-Yes, you can fork this repo. Please give me proper credit by linking back to [brittanychiang.com](https://brittanychiang.com). Thanks!
+Yes, you can fork this repo. Please give me proper credit by linking back to [bhargavborse.com](https://bhargavborse.netlify.app/). Thanks!
 
 ## 🛠 Installation & Set Up
 
