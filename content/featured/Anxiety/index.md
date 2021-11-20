@@ -1,6 +1,6 @@
 ---
 date: '3'
-title: 'Build a Spotify Connected App'
+title: 'Anxiety Web Page Design'
 cover: './Anxiety1.png'
 github: 'https://github.com/BhargavBorse/Anxiety-XD'
 cta: ''
