@@ -147,14 +147,18 @@ const PensievePage = ({ location, data }) => {
 
   return (
     <Layout location={location}>
-      <Helmet title="Pensieve" />
+      <Helmet title="Codepen" />
 
       <StyledMainContainer>
         <header>
-          <h1 className="big-heading">Pensieve</h1>
+          <h1 className="big-heading">Codepen</h1>
           <p className="subtitle">
-            <a href="https://www.wizardingworld.com/writing-by-jk-rowling/pensieve">
-              a collection of memories
+            <a href="https://codepen.io/bhargavborse">
+              a collection of memories 
+            </a>
+            <p> -- </p>
+             <a href="/pensieve/tags">
+               view tags
             </a>
           </p>
         </header>
