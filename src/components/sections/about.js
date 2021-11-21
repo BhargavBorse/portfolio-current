@@ -61,7 +61,7 @@ const StyledPic = styled.div`
     position: relative;
     width: 100%;
     border-radius: var(--border-radius);
-    background-color: var(--white);
+    background-color: var(--green);
 
     &:hover,
     &:focus {
@@ -101,7 +101,7 @@ const StyledPic = styled.div`
     &:before {
       top: 0;
       left: 0;
-      background-color: var(--navy);
+      background-color: var(--white);
       mix-blend-mode: screen;
     }
 
