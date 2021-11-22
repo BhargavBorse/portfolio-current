@@ -3,10 +3,10 @@ title: Checkout Form
 description: Checkout Form with focus on the fields while filling out the form
 date: 2021-04-21
 draft: false
-slug: /pensieve/dark-mode-toggle
+slug: /pensieve/checkout-form
 tags:
   - Theming
-  - Nav Bar
+  - Forms
 ---
 
 [Codepen Demo](https://codepen.io/bhargavborse/pen/jOLJqWr)

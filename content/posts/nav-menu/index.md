@@ -3,7 +3,7 @@ title: Nav Menu Animation
 description: A simple animation for the nav menu bar
 date: 2021-04-21
 draft: false
-slug: /pensieve/dark-mode-toggle
+slug: /pensieve/nav-menu
 tags:
   - Theming
   - Nav Bar

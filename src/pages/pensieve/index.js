@@ -151,14 +151,10 @@ const PensievePage = ({ location, data }) => {
 
       <StyledMainContainer>
         <header>
-          <h1 className="big-heading">Codepen</h1>
+          <h1 className="big-heading">Code Playground</h1>
           <p className="subtitle">
-            <a href="https://codepen.io/bhargavborse">
-              a collection of memories 
-            </a>
-            <p> -- </p>
              <a href="/pensieve/tags">
-               view tags
+               view all tags
             </a>
           </p>
         </header>

@@ -5,13 +5,13 @@ date: 2021-04-21
 draft: false
 slug: /pensieve/splitting-words
 tags:
-  - Accessibility
+  - Theming
   - CSS
 ---
 
 [Codepen Demo](https://codepen.io/bhargavborse/pen/MWvxyov)
 
-## CSS
+## CSS [SCSS]
 
 ```css
 .splitting .char {

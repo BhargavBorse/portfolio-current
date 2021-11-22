@@ -38,12 +38,12 @@ module.exports = {
       url: '/#projects',
     },
     {
-      name: 'Contact',
-      url: '/#contact',
+      name: 'Code Playground',
+      url: '/pensieve',
     },
     {
-      name: 'Codepen',
-      url: '/pensieve',
+      name: 'Contact',
+      url: '/#contact',
     },
   ],
 
