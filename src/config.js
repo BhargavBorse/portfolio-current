@@ -38,7 +38,7 @@ module.exports = {
       url: '/#projects',
     },
     {
-      name: 'Code Playground',
+      name: 'Blogs',
       url: '/pensieve',
     },
     {

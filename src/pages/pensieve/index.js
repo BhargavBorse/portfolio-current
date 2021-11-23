@@ -151,7 +151,7 @@ const PensievePage = ({ location, data }) => {
 
       <StyledMainContainer>
         <header>
-          <h1 className="big-heading">Code Playground</h1>
+          <h1 className="big-heading">Blogs</h1>
           <p className="subtitle">
              <a href="/pensieve/tags">
                view all tags
