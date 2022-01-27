@@ -1,5 +1,5 @@
 ---
-date: '2015-02-01'
+date: '2016-02-01'
 title: 'To-Do App JavaScript'
 github: 'https://github.com/BhargavBorse/TodoApp-JS'
 external: 'https://bhargavborse.github.io/TodoApp-JS/index.html'

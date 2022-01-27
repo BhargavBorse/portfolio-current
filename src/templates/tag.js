@@ -56,7 +56,7 @@ const TagTemplate = ({ pageContext, data, location }) => {
       <StyledTagsContainer>
         <span className="breadcrumb">
           <span className="arrow">&larr;</span>
-          <Link to="/pensieve">All memories</Link>
+          <Link to="/pensieve">Blog</Link>
         </span>
 
         <h1>

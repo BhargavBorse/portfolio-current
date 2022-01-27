@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import Img from 'gatsby-image';
+import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import styled from 'styled-components';
 import sr from '@utils/sr';
 import { srConfig } from '@config';
@@ -174,6 +174,11 @@ const StyledProject = styled.li`
     a {
       ${({ theme }) => theme.mixins.inlineLink};
     }
+
+    strong {
+      color: var(--white);
+      font-weight: normal;
+    }
   }
 
   .project-tech-list {
@@ -228,6 +233,11 @@ const StyledProject = styled.li`
         height: 20px;
       }
     }
+
+    .cta {
+      ${({ theme }) => theme.mixins.smallButton};
+      margin: 10px;
+    }
   }
 
   .project-image {
@@ -246,7 +256,6 @@ const StyledProject = styled.li`
     a {
       width: 100%;
       height: 100%;
-      background-color: var(--green);
       border-radius: var(--border-radius);
       vertical-align: middle;
 
@@ -273,7 +282,6 @@ const StyledProject = styled.li`
         bottom: 0;
         z-index: 3;
         transition: var(--transition);
-        background-color: var(--navy);
         mix-blend-mode: screen;
       }
     }
@@ -281,13 +289,11 @@ const StyledProject = styled.li`
     .img {
       border-radius: var(--border-radius);
       mix-blend-mode: multiply;
-      filter: grayscale(100%) contrast(1) brightness(90%);
 
       @media (max-width: 768px) {
         object-fit: cover;
         width: auto;
         height: 100%;
-        filter: grayscale(100%) contrast(1) brightness(80%);
       }
     }
   }
@@ -295,10 +301,10 @@ const StyledProject = styled.li`
 
 const Featured = () => {
   const data = useStaticQuery(graphql`
-    query {
+    {
       featured: allMarkdownRemark(
         filter: { fileAbsolutePath: { regex: "/featured/" } }
-        sort: { fields: [frontmatter___date], order: DESC }
+        sort: { fields: [frontmatter___date], order: ASC }
       ) {
         edges {
           node {
@@ -306,14 +312,13 @@ const Featured = () => {
               title
               cover {
                 childImageSharp {
-                  fluid(maxWidth: 700, traceSVG: { color: "#64ffda" }) {
-                    ...GatsbyImageSharpFluid_withWebp_tracedSVG
-                  }
+                  gatsbyImageData(width: 700, placeholder: BLURRED, formats: [AUTO, WEBP, AVIF])
                 }
               }
               tech
               github
               external
+              cta
             }
             html
           }
@@ -346,7 +351,8 @@ const Featured = () => {
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { external, title, tech, github, cover } = frontmatter;
+            const { external, title, tech, github, cover, cta } = frontmatter;
+            const image = getImage(cover);
 
             return (
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
@@ -377,7 +383,7 @@ const Featured = () => {
                           <Icon name="GitHub" />
                         </a>
                       )}
-                      {external && (
+                      {external && !cta && (
                         <a href={external} aria-label="External Link" className="external">
                           <Icon name="External" />
                         </a>
@@ -388,7 +394,7 @@ const Featured = () => {
 
                 <div className="project-image">
                   <a href={external ? external : github ? github : '#'}>
-                    <Img fluid={cover.childImageSharp.fluid} alt={title} className="img" />
+                    <GatsbyImage image={image} alt={title} className="img" />
                   </a>
                 </div>
               </StyledProject>

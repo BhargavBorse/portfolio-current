@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
-import { email } from '@config';
 import { navDelay, loaderDelay } from '@utils';
 import { usePrefersReducedMotion } from '@hooks';
+// import { email } from '@config';
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -36,7 +36,7 @@ const StyledHeroSection = styled.section`
 
   p {
     margin: 20px 0 0;
-    max-width: 500px;
+    max-width: 540px;
   }
 
   .email-link {
@@ -57,21 +57,23 @@ const Hero = () => {
     const timeout = setTimeout(() => setIsMounted(true), navDelay);
     return () => clearTimeout(timeout);
   }, []);
-  
-  const one = <h1>Hello, my name is</h1>;
+
+  const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Bhargav Borse.</h2>;
   const three = <h3 className="big-heading">I build things for the web.</h3>;
   const four = (
-    <p>
-      I'm a Gujarat-based freelancer who specializes in building (and occasionally designing)
-      exceptional digital experiences. 
-      {/* Currently, I'm an engineer at{' '}
-      <a href="https://upstatement.com/">Upstatement</a> focused on building accessible,
-      human-centered products. */}
-    </p>
+    <>
+      <p>
+        I’m a software developer specializing in building (and occasionally designing) exceptional
+        digital experiences.
+      </p>
+    </>
   );
   const five = (
-    <a href={`mailto:${email}`} className="email-link">
+    <a
+      className="email-link"
+      href="mailto:bhargav.borse4@gmail.com"
+      rel="noreferrer">
       Get In Touch
     </a>
   );

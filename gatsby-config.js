@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Bhargav Borse',
     description:
-      'Bhargav Borse is a Web Developer who specializes in building (and occasionally designing) exceptional digital experiences.',
+      'Bhargav Borse is a software developer who specializes in building (and occasionally designing) exceptional digital experiences.',
     siteUrl: 'https://bhargavborse.netlify.app', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@bhargav_borse',
@@ -12,6 +12,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
+    `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sitemap`,
@@ -19,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Bhargav Borse',
-        short_name: 'Bhargav Borse',
+        name: 'BhargavBorse',
+        short_name: 'BhargavBorse',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
