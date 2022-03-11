@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/BhargavBorse/portfolio-current/master/src/images/logo.png" width="100" />
+  <img alt="Logo" src="https://github.com/BhargavBorse/portfolio-current/blob/master/src/images/logo.png" width="100" />
 </div>
 <h1 align="center">
   Bhargav Borse's Personal Website - v3
@@ -18,7 +18,7 @@
   </a>
 </p>
 
-![demo](https://raw.githubusercontent.com/BhargavBorse/portfolio-current/master/src/images/demo.png)
+![demo](https://github.com/BhargavBorse/portfolio-current/blob/master/src/images/demo.png)
 
 ## 🚨 Forking this repo (please read!)
 
