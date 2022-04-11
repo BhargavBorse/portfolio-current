@@ -60,7 +60,7 @@ const Layout = ({ children, location }) => {
         <ThemeProvider theme={theme}>
           <GlobalStyle />
 
-          <a className="skip-to-content" href="#content">
+          <a className="skip-to-content" href="#about">
             Skip to Content
           </a>
 
