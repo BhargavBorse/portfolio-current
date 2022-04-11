@@ -77,7 +77,7 @@ const Footer = () => {
     if (process.env.NODE_ENV !== 'production') {
       return;
     }
-    fetch('https://api.github.com/repos/bchiang7/v4')
+    fetch('')
       .then(response => response.json())
       .then(json => {
         const { stargazers_count, forks_count } = json;
@@ -112,11 +112,13 @@ const Footer = () => {
             <div className="github-stats">
               <span>
                 <Icon name="Star" />
-                <span>{githubInfo.stars.toLocaleString()}</span>
+                <span>5,225</span>
+                {/* original span data- {githubInfo.stars.toLocaleString()} */}
               </span>
               <span>
                 <Icon name="Fork" />
-                <span>{githubInfo.forks.toLocaleString()}</span>
+                <span>1,020</span>
+                {/* original span data- {githubInfo.forks.toLocaleString()} */}
               </span>
             </div>
           )}
