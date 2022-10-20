@@ -1,6 +1,6 @@
 ---
 date: '2021-05-21'
-title: 'Software Developer'
+title: 'Software Engineer'
 company: 'AllScripts'
 location: 'Gujarat, India'
 range: 'June 2021 - Present'
