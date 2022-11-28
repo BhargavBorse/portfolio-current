@@ -3,7 +3,7 @@ date: '2021-05-21'
 title: 'Software Engineer'
 company: 'AllScripts'
 location: 'Gujarat, India'
-range: 'June 2021 - Present'
+range: 'June 2021 - July 2022'
 url: 'https://as.allscripts.com/'
 ---
 
